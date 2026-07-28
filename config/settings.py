@@ -26,6 +26,7 @@ EMOTIONS = {
     "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
     "bura_mana": {"pitch": 0.9, "speed": 0.85, "prefix": "Hawww! Main bura maan gayi! "},
     "neutral": {"pitch": 1.0, "speed": 1.0, "prefix": ""},
+    "neutral": {"pitch": 1.0, "speed": 1.0, "prefix": ""},
 }
 
 # ========== VOICE SETTINGS ==========
