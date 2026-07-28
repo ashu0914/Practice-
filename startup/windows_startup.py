@@ -61,3 +61,11 @@ class StartupManager:
             return True
         except:
             return False
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
+            "loving": {"pitch": 1.1, "speed": 0.95, "prefix": "Aww... "},
