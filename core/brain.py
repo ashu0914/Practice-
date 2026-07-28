@@ -144,3 +144,9 @@ Example: "Arre waah! Ye toh mast idea hai! Main aapki help karungi!"""
         """Clear conversation history"""
         self.conversation_history = []
         return "Memory cleared! I've forgotten our previous conversation."
+
+
+
+
+
+
