@@ -1,5 +1,5 @@
 """
-JAYA AI - Application Control./././././.
+JAYA AI - Application Control
 FIXED: Chrome, YouTube, Google search + Web fallback
 """
 
