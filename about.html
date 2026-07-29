@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Ashirwad Jha</title>
+<meta name="description" content="About Ashirwad Jha — Diploma in Computer Science Engineering, AI/ML learner, Python developer, 3D visualization artist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body data-page="about">
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+<div id="transition-overlay"></div>
+
+<div id="preloader">
+  <div class="pre-word">Loading About</div>
+  <div class="pre-count">00</div>
+  <div class="pre-bar"><span></span></div>
+</div>
+
+<canvas id="bg-canvas"></canvas>
+<div class="grain"></div>
+<div class="vignette"></div>
+
+<header class="nav">
+  <div class="nav-brand"><span class="dot"></span>ASHIRWAD&nbsp;JHA</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" data-page="home" data-internal>Home</a>
+    <a href="about.html" data-page="about" data-internal>About</a>
+    <a href="projects.html" data-page="projects" data-internal>Projects</a>
+    <a href="skills.html" data-page="skills" data-internal>Skills</a>
+    <a href="contact.html" data-page="contact" data-internal>Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="about-hero">
+    <div>
+      <div class="eyebrow reveal">About</div>
+      <h1 class="reveal">I build things that think — and things that look like they were made with intent.</h1>
+      <p class="reveal" style="margin-top:26px;color:var(--silver);max-width:560px;font-weight:300;">I build practical projects at the intersection of Python, AI, and Generative AI, with a strong interest in creating systems that are useful, interactive, and real-world focused. Alongside software and AI, I also work on 3D interior visualization — creating residential and commercial visual concepts using design and rendering tools.</p>
+    </div>
+    <div class="profile-card reveal">
+      <img src="assets/ashu.jpg" alt="Portrait of Ashirwad Jha" loading="lazy">
+      <div class="profile-tag"><strong>Ashirwad Jha</strong>Diploma, Computer Science Engineering</div>
+    </div>
+  </section>
+
+  <section style="padding-top:0;">
+    <div class="stats-row reveal">
+      <div class="stat"><div class="val">14+</div><div class="lab">Core Skills</div></div>
+      <div class="stat"><div class="val">03</div><div class="lab">Certifications</div></div>
+      <div class="stat"><div class="val">02</div><div class="lab">Domains — AI &amp; 3D</div></div>
+      <div class="stat"><div class="val">∞</div><div class="lab">Curiosity</div></div>
+    </div>
+
+    <div class="timeline">
+      <div class="t-item reveal">
+        <div class="t-tag">Foundation</div>
+        <h3>Diploma in Computer Science Engineering</h3>
+        <p>The technical base for everything that followed — logic, systems thinking, and a habit of building rather than just studying.</p>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-tag">Currently learning</div>
+        <h3>AI/ML, Python &amp; intelligent systems</h3>
+        <p>Strengthening skills through hands-on building — Python projects, generative AI fundamentals, and prompt-driven applications.</p>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-tag">Creative practice</div>
+        <h3>3D interior &amp; exterior visualization</h3>
+        <p>Working with 3ds Max, Corona Renderer and AutoCAD to design residential and commercial visual concepts.</p>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-tag">Building now</div>
+        <h3>Voice AI &amp; assistant-based projects</h3>
+        <p>Exploring AI assistants, voice-based workflows and agent-driven tools — including the DEO / Nova concept.</p>
+      </div>
+      <div class="t-item reveal">
+        <div class="t-tag">What's next</div>
+        <h3>Deeper AI/ML concepts, better-crafted projects</h3>
+        <p>Focused on improving project quality and going deeper into intelligent systems, one build at a time.</p>
+      </div>
+    </div>
+
+    <div class="cert-list">
+      <div class="section-head reveal" style="margin-bottom:20px;"><h2 style="font-size:clamp(26px,3vw,36px);">Licenses &amp; Certifications</h2></div>
+      <div class="cert-row reveal"><h4>GenAI for Social Media Marketing Specialists</h4><span>Coursera · Issued Jun 2026</span></div>
+      <div class="cert-row reveal"><h4>Getting Started with Generative AI in Azure</h4><span>Microsoft · Issued Jun 2026</span></div>
+      <div class="cert-row reveal"><h4>AI Fundamentals</h4><span>Google · Issued Jun 2026</span></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span>© 2026 Ashirwad Jha</span>
+    <span>Diploma · CSE · New Delhi</span>
+  </footer>
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>
