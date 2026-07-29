@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Ashirwad Jha</title>
+<meta name="description" content="Selected work by Ashirwad Jha spanning AI, Python, voice assistants, web design and 3D visualization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body data-page="projects">
+
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+<div id="transition-overlay"></div>
+
+<div id="preloader">
+  <div class="pre-word">Loading Projects</div>
+  <div class="pre-count">00</div>
+  <div class="pre-bar"><span></span></div>
+</div>
+
+<canvas id="bg-canvas"></canvas>
+<div class="grain"></div>
+<div class="vignette"></div>
+
+<header class="nav">
+  <div class="nav-brand"><span class="dot"></span>ASHIRWAD&nbsp;JHA</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  <nav class="nav-links" id="navLinks">
+    <a href="index.html" data-page="home" data-internal>Home</a>
+    <a href="about.html" data-page="about" data-internal>About</a>
+    <a href="projects.html" data-page="projects" data-internal>Projects</a>
+    <a href="skills.html" data-page="skills" data-internal>Skills</a>
+    <a href="contact.html" data-page="contact" data-internal>Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section style="padding-top:150px;">
+    <div class="eyebrow reveal">Selected Work</div>
+    <h1 class="reveal" style="font-size:clamp(38px,6vw,80px);max-width:900px;">A gallery of AI, code &amp; visual design.</h1>
+    <p class="reveal" style="margin-top:20px;color:var(--silver);max-width:560px;font-weight:300;">Projects spanning generative AI, voice assistants, web design and 3D visualization.</p>
+
+    <div class="filter-row reveal" style="margin-top:60px;">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI / Python</button>
+      <button class="filter-btn" data-filter="web">Web &amp; UI</button>
+      <button class="filter-btn" data-filter="3d">3D Visualization</button>
+    </div>
+
+    <div class="proj-grid" id="projGrid"></div>
+  </section>
+
+  <footer class="site-footer">
+    <span>© 2026 Ashirwad Jha</span>
+    <span>Projects — AI · Web · 3D</span>
+  </footer>
+</main>
+
+<script src="main.js"></script>
+<script src="projects.js"></script>
+</body>
+</html>
