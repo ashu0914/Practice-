@@ -5,7 +5,7 @@ const SKILLS = [
   {name:'Corona Renderer', cat:'Tools & Technologies', lvl:85},
   {name:'Autodesk 3ds Max', cat:'Tools & Technologies', lvl:87},
   {name:'GitHub', cat:'Tools & Technologies', lvl:80},
-  {name:'Python (Programming Language)', cat:'Tools & Technologies', lvl:90},
+  {name:'Python (Programming Language)', cat:'Tools & Technologies', lvl:90},w wwbxdg h
   {name:'Application Programming Interfaces (API)', cat:'Tools & Technologies', lvl:74},
   {name:'AI Agents', cat:'Tools & Technologies', lvl:78},
   {name:'Prompt Engineering', cat:'Tools & Technologies', lvl:83},
