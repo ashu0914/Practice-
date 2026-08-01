@@ -1,6 +1,6 @@
 CXGBFG"""
 JAYA AI - Configuration Settings
-No API keys here! All local/free services.
+No API kev cbnb ys here! All local/free services.
 """vdfbf
 
 import os
