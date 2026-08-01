@@ -10,7 +10,7 @@ USER_NAME = "Ashu"
 ASSISTANT_NAME = "Jaya"
 
 # ========== LANGUAGE MODES ==========
-DEFAULT_LANGUAGE = "english"  # Default mode
+DEFAULT_LANGUAGE = "english"  # Default mode cccsd fx 
 HINGLISH_WAKE_WORD = "jaya hindi mein"  # Wake word for Hinglish
 HINGLISH_WAKE_WORDS = ["jaya hindi mein", "jaya hinglish", "jaya desi mode"]
 
