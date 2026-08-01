@@ -4,7 +4,7 @@ No API keys here! All local/free services.
 """vdfbf
 
 import os
-
+vc
 # ========== USER SETTINGS ==========
 USER_NAME = "Ashu"
 ASSISTANT_NAME = "Jaya"
