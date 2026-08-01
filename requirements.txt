@@ -1,4 +1,4 @@
-﻿pyttsx3==2.90
+﻿pyttsx3==2.90db jk gvv hhnfcbx grgdr ,  iuhvf j
 SpeechRecognition==3.10.0
 sounddevice==0.4.6
 numpy==1.24.3
