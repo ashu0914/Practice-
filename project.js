@@ -4,7 +4,7 @@ const PROJECTS = [
   {cat:'web', tag:'Web Design · Portfolio', title:'Creative UI & Portfolio Systems', desc:'Front-end explorations in web design and interaction — building interfaces with a strong visual identity.', tools:['HTML/CSS','Figma','Web Design','UX'], glyph:'UI'},
   {cat:'3d', tag:'3D Visualization', title:'Interior & Exterior Concepts', desc:'Residential and commercial visualization work — rendered scenes built for clarity, mood and realism.', tools:['3ds Max','Corona Renderer','AutoCAD','Interior Design'], glyph:'3D'},
 ];
-
+ ffdxbyhx rgbcfcnu 
 function buildProjects(list){
   const grid = document.getElementById('projGrid');
   grid.innerHTML = list.map(p=>`
