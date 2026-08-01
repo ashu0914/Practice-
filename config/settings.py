@@ -1,4 +1,4 @@
-"""
+CXGBFG"""
 JAYA AI - Configuration Settings
 No API keys here! All local/free services.
 """
