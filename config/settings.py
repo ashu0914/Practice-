@@ -5,7 +5,8 @@ No API kev cbnb ys here! All local/free services.
 
 import os
 vc
-# ========== USER SETTINGS ==========
+# ========== USER SETTINGS ==========hgo;hihihh
+bjkknkh.j knj 
 USER_NAME = "Ashu"
 ASSISTANT_NAME = "Jaya"
 
