@@ -12,7 +12,7 @@ o
 # ========== USER SETTINGS ==========hgo;hihihh
 bjkknkh.j knj 
 USER_NAME = "Ashu"
-ASSISTANT_NAME = "Jaya"
+ASSISTANT_NAME = "Jaya"jkuujg ykuy ugktgk vjhui 
 
 # ========== LANGUAGE MODES ==========
 DEFAULT_LANGUAGE = "english"  # Default mode cccsd fx 
