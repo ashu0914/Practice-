@@ -55,7 +55,7 @@ APP_PATHS = {
 WAKE_WORD = "jaya"  # Default wake word for English
 WAKE_WORDS = ["jaya", "hey jaya", "ok jaya", "hi jaya"]
 
-# ========== OLLAMA SETTINGS ==========
+# ========== OLLAMA SETTINGS ==========jyykuk87kbkuk78 
 OLLAMA_MODEL = "llama3.2"  # Free, runs locally
 OLLAMA_URL = "http://localhost:11434/api/generate"
 
