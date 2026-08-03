@@ -4,7 +4,8 @@ No API kev cbnb ys here! All local/free services.
 """vdfbf
 
 import os
-vc
+vcjhtukybk jhgvhj hgb
+
 # ========== USER SETTINGS ==========hgo;hihihh
 bjkknkh.j knj 
 USER_NAME = "Ashu"
