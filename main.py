@@ -64,6 +64,14 @@ class JayaAI:
         print(f"Processing: {command} | Language: {current_lang}")
         
         switched, new_lang = self.language.process_text(command)
+# Core modules
+from core.speech_recognition import SpeechRecognizer
+from core.tts_engine import TTSEngine
+from core.brain import AIBrain
+from core.emotions import EmotionEngine
+from core.language_mode import LanguageModeManager
+from core.wake_word import WakeWordDetector
+
         if switched:
             if new_lang == "hinglish":
                 self.tts.speak("Hinglish mode activated!", emotion="excited", language=current_lang)
