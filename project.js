@@ -8,7 +8,17 @@ const PROJECTS = [
 function buildProjects(list){
   const grid = document.getElementById('projGrid');
   grid.innerHTML = list.map(p=>`
-    <article class="proj-card reveal" data-cat="${p.cat}">
+    <article class="proj-card reveal" data-cat="${p.ca
+import sys
+import time
+import threading
+from datetime import datetime
+
+# Core modules
+from core.speech_recognition import SpeechRecognizer
+from core.tts_engine import TTSEngine
+from core.brain import AIBrain
+from core.emotions import EmotionEnginet}">
       <div class="proj-visual">
         <div class="beam"></div>
         <div class="glyph">${p.glyph}</div>
