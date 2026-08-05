@@ -17,6 +17,16 @@ from core.emotions import EmotionEngine
 from core.language_mode import LanguageModeManager
 from core.wake_word import WakeWordDetector
 
+import sys
+import time
+import threading
+from datetime import datetime
+
+# Core modules
+from core.speech_recognition import SpeechRecognizer
+from core.tts_engine import TTSEngine
+from core.brain import AIBrain
+from core.emotions import EmotionEngine
 # Skills
 from skills.app_control import AppController
 from skills.media_control import MediaController
