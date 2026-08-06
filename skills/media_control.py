@@ -4,19 +4,24 @@ Play, pause, skip, volume control
 """
 
 import pyautogui
-import subprocess
-import platform
-from ctypes import cast, POINTER
-from comtypes import CLSCTX_ALL
-from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
+import subproc    </article>
+  `).join('');
+  initReveals();
+  attachTilt();
+}
+buildProjects(PROJECTS);
 
-class MediaController:
-    def __init__(self):
-        self.system = platform.system()
-        self._setup_volume_control()
-    
-    def _setup_volume_control(self):
-        """Setup volume control interface"""
+document.querySelectorAll('[data-filter]').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('[data-filter]').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    document.querySelectorAll('.proj-card').forEach(card=>{
+      card.style.display = (f==='all' || card.dataset.cat===f) ? '' : 'none';
+    });
+  });
+});
+
         try:
             devices = AudioUtilities.GetSpeakers()
             interface = devices.Activate(
