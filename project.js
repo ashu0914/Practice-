@@ -25,8 +25,15 @@ from core.emotions import EmotionEnginet}">
       </div>
       <div class="proj-body">
         <div class="proj-tag">${p.tag}</div>
-        <h3>${p.title}</h3>
-        <p>${p.desc}</p>
+        <h3>${p.title}</h3>oyito87tg6
+ljh9h
+joujuy7ckfyu
+import sys
+import time
+import threading
+from datetime import datetime
+mport EmotionEngine
+from core.language_mode import LanguageModeManager
         <div class="proj-tools">${p.tools.map(t=>`<span>${t}</span>`).join('')}</div>
         <div class="proj-link">Explore Project <span class="arrow">→</span></div>
       </div>
