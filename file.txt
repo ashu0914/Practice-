@@ -6,9 +6,9 @@ djskbjbjmvckl
 vdjchjscvufyvi
 dsvxcfyuknzxfribcyugyfbdvytcbvkjhdcuhduyybdvgyk o8njgsughsiyfyufdsabljg;ias
       dshsyuv w uilhd 
-v; v ad
- vrlhpoefhd'
-veru
+v; v admport EmotionEngine
+from core.language_mode import LanguageModeManager
+from core.wake_word import WakeWordDetector
 ev evuhdgd's
 d iu d87iywdet7cdbxcyufcyfefwenigkuyf
 ioyito87tg6
@@ -18,18 +18,9 @@ import sys
 import time
 import threading
 from datetime import datetime
-
-# Core modules
-from core.speech_recognition import SpeechRecognizer
-from core.tts_engine import TTSEngine
-from core.brain import AIBrain
-from core.emotions import EmotionEngine
-u7ttffjgyytyugjyyc6vrnnt7c6jor7i
-buob8ti7tnu6cgo7rri7i;xd r6ehgkri7cbf 8tyhb kyk jyt v r7yri767r b vovppj  v8 o85gh ghvi6r nn f jghi67ru m,liir6j m77o8kh ;
-xhbf3vyybvbwdmLNSDVNV
-JOIOHOBJ
-KJBDZBJ
-PKBZ
+mport EmotionEngine
+from core.language_mode import LanguageModeManager
+from core.wake_word import WakeWordDetector
 JPOj[P
 K
 [k
